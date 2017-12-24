@@ -14,11 +14,14 @@ for i in range(6):
         if i+1 < 6 and i+2<6 and j+1<6 and j+2<6:
             hourglassSum = arr[i][j] + arr[i][j+1] + arr[i][j+2] + arr[i+1][j+1] + arr[i+2][j] + arr[i+2][j+1] + arr[i+2][j+2]
             sumList.append(hourglassSum)
+            #print(hourglassSum)
         else: 
             pass
 
-max = 0 
+max = float('-Inf')
 for each in sumList:
     if max < each:
         max = each
+    #print(each, max)
+        
 print(max)
