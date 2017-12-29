@@ -1,12 +1,24 @@
 from abc import ABCMeta, abstractmethod
+# abstract base class
 class Book(object, metaclass=ABCMeta):
     def __init__(self,title,author):
         self.title=title
         self.author=author   
     @abstractmethod
     def display(): pass
-    
-    
+
+# implementation of abstract method
+class MyBook(Book):
+    def __init__(self, title, author, price):
+        Book.__init__(self, title, author)
+        self.price = price
+   
+    def display(self):
+        print("Title: %s" % self.title)
+        print("Author: %s" % self.author)
+        print("Price: %s" % str(self.price))
+
+# Input handling
 title=input()
 author=input()
 price=int(input())
