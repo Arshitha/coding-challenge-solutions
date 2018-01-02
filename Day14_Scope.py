@@ -2,16 +2,16 @@ class Difference:
     def __init__(self, a):
         self.__elements = a
     
+    self.maximumDifference = self.computeDifference()
+    
     def computeDifference(self):
         diff = []
-        print(len(a))
+        #print(len(a))
         for i in range(0, len(a)-1):
             for j in range(i+1,len(a)):
                 diff.append(abs(a[i]-a[j]))
-        print(sorted(diff))
-    
-    def maximumDifference(diff):
-        print(diff)
+        diff = sorted(diff)
+        return diff[len(diff)-1]
         
         
 # End of Difference class
