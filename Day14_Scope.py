@@ -5,11 +5,9 @@ class Difference:
     
     def computeDifference(self):
         diff = []
-        for i in range(0, len(a)-1):
-            for j in range(i+1,len(a)):
-                diff.append(abs(a[i]-a[j]))
-        diff = sorted(diff)
-        return diff[len(diff)-1]
+        sortedArray = sorted(a)
+        maxDiff = abs(sortedArray[0] - sortedArray[len(a)-1])
+        return maxDiff
         
         
 # End of Difference class
