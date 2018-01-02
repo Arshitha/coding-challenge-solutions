@@ -6,7 +6,6 @@ class Difference:
     
     def computeDifference(self):
         diff = []
-        #print(len(a))
         for i in range(0, len(a)-1):
             for j in range(i+1,len(a)):
                 diff.append(abs(a[i]-a[j]))
