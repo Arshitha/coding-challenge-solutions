@@ -1,3 +1,3 @@
-# HackerRank 30 days of Code Challenges
+# HackerRank Challenges
 
-Contains all of my solutions to challenges in Python. File naming convention is Day number with descriptive challenge name.
+Contains all of my solutions to attempted HackerRank challenges in Python. Hackerrank profile: https://www.hackerrank.com/profile/arshithab
