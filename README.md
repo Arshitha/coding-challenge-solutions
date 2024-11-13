@@ -1,3 +1,6 @@
-# HackerRank Challenges
+# Coding Challenges
 
-Contains all of my solutions to attempted HackerRank challenges in Python. Hackerrank profile: https://www.hackerrank.com/profile/arshithab
+Contains solutions to attempted coding challenges on Hackerrank, LeetCode and from the book Cracking the Coding Interview. 
+
+HackerRank profile: https://www.hackerrank.com/profile/arshithab
+LeetCode profile: https://leetcode.com/u/arshithab/
